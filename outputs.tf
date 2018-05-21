@@ -25,5 +25,5 @@ output "Public Instace IDs" {
 }
 
 output "Public Instace IPs" {
-    value = "${module.compute.server_ip"
+    value = "${module.compute.server_ip}"
 }

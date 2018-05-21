@@ -60,7 +60,7 @@ resource "aws_route_table_association" "tf_public_assoc" {
 resource "aws_security_group" "tf_public_sg" {
   name = "tf_public_sg"
   description = "Used for the access to the public instances"
-  vpc_id = "${aws_vc.tf_vpc.id}"
+  vpc_id = "${aws_vpc.tf_vpc.id}"
 
   # SSH
 

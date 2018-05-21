@@ -1,14 +1,5 @@
-variable "vpc_cidr" {
-  default = "10.123.0.0/16"
-}
+variable "vpc_cidr" {}
 
-variable "public_cidrs" {
-  default = [
-    "10.123.1.0/24",
-    "10.123.2.0/23"
-  ]
-}
+variable "public_cidrs" {}
 
-variable "accessip" {
-  default = "0.0.0.0/0"
-}
+variable "accessip" {}

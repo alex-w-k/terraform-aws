@@ -9,4 +9,6 @@ variable "subnet_ips" {
 variable "instance_count" {}
 variable "instance_type" {}
 variable "security_group" {}
-variable "subnets" {}
+variable "subnets" {
+    type = "list"
+}

@@ -67,7 +67,7 @@ resource "aws_security_group" "tf_public_sg" {
   ingress {
     from_port = 22
     to_port = 22
-    protocol - "tcp"
+    protocol = "tcp"
     cidr_blocks = ["${var.accessip}"]
   }
 

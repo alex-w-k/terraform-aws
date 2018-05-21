@@ -21,7 +21,7 @@ output "Public Security Group" {
 #----- Compute Outputs -----
 
 output "Public Instace IDs" {
-    value = "${module.compute.server_id"
+    value = "${module.compute.server_id}"
 }
 
 output "Public Instace IPs" {
